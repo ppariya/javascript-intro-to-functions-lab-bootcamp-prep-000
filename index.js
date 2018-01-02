@@ -5,7 +5,7 @@ function whisper(string) {
   return string.toLowerCase()
 }
 function logShout(string) {
-  console.log("spy was never called with `string.toUpperCase`")
+  console.log(string.toUpperCase)
 }
 function logWhisper(string) {
   console.log(string.toLowerCase)
